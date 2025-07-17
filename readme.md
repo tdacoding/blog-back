@@ -1,0 +1,1 @@
+docker run -d --name mongo -p 27017:27017 -v /Progs/nodeJS/blog-back/data:/data/db -e MONGO_INITDB_DATABASE=blog -e MONGO_INITDB_ROOT_USERNAME=user -e MONGO_INITDB_ROOT_PASSWORD=mongopass mongo:latest
